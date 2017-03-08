@@ -1,0 +1,87 @@
+<core:View xmlns:core="sap.ui.core"
+		   xmlns="sap.uxap"
+		   xmlns:layout="sap.ui.layout"
+		   xmlns:m="sap.m"
+		   controllerName="ui.controller.View1"
+		   height="100%">
+	<ObjectPageLayout id="ObjectPageLayout"
+					  enableLazyLoading="false"
+					  showTitleInHeaderContent="true"
+					  showEditHeaderButton="true"
+					  editHeaderButtonPress="handleEditBtnPress">
+		<headerTitle>
+			<ObjectPageHeader objectImageURI="{/basics/picture}"
+							  objectTitle="{/basics/name}"
+							  objectImageShape="Circle"
+							  objectImageAlt="{/basics/name}"
+							  objectSubtitle="{/basics/label}"
+ 
+							  isObjectIconAlwaysVisible="false"
+							  isObjectTitleAlwaysVisible="false"
+							  isObjectSubtitleAlwaysVisible="false">
+
+			</ObjectPageHeader>
+		</headerTitle>
+ 
+		<headerContent>
+			<layout:VerticalLayout>
+				<m:Link text="{/basics/phone}"/>
+				<m:Link text="{/basics/email}"/>
+			</layout:VerticalLayout>
+ 
+			<layout:VerticalLayout>
+				<m:Label text="{/basics/summary}"/>
+				<m:VBox height="63px">
+					<m:Label text="Achieved goals"/>
+					<m:ProgressIndicator
+							percentValue="30"
+							displayValue="30%"
+							showValue="true"
+							state="None"/>
+				</m:VBox>
+			</layout:VerticalLayout>
+ 
+			<layout:VerticalLayout>
+				<m:Label text="{/basics/location/city},{/basics/location/region}"/>
+			</layout:VerticalLayout>
+		</headerContent>
+ 
+		<sections>
+			<ObjectPageSection id="goalsSection" title="2014 Goals Plan">
+				<subSections>
+					<ObjectPageSubSection id="goalsSectionSS1" title=" ">
+
+							<m:Table id="table" items="{path: '/work'}" >
+								<m:columns>
+									<m:Column id="idColumn" width="15%">
+										<m:Text id="idColumnTitle" text="Company"/>
+									</m:Column>
+									<m:Column id="nameColumn" width="40%">
+										<m:Text id="nameColumnTitle" text="Position"/>
+									</m:Column>
+									<m:Column id="materialColumn" width="25%">
+										<m:Text id="materialColumnTitle" text="Begin Date"/>
+									</m:Column>
+									<m:Column width="25%">
+										<m:Text  text="End Date"/>
+									</m:Column>
+								</m:columns>
+								<m:items>
+									<m:ColumnListItem>
+										<m:cells>
+											<m:Text text="{company}"/>
+											<m:Text text="{position}"/>
+											<m:Text text="{begDate}"/>
+											<m:Text text="{endDate}"/>
+										</m:cells>
+									</m:ColumnListItem>
+								</m:items>
+							</m:Table>
+
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+ 
+		</sections>
+	</ObjectPageLayout>
+</core:View>

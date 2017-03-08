@@ -1,0 +1,173 @@
+{
+  "basics": {
+    "name": "Nuno Pereira",
+    "label": "SAP Consultant",
+    "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAbWAAAAJGYyN2Y0ZjQwLTdhNjItNDZiZC1hNTRkLWVhZWZjNzU1ZTgyNg.jpg",
+    "email": "nunocpereira@gmail.com",
+    "phone": "+351932561618",
+    "website": "",
+    "summary": "Nuno Pereira is a passionate developer eager to learn and keep the pace of the technology. He works mainly as an SAP Consultant but also with J2EE,.NET and node projects",
+    "location": {
+      "address": "Rua Manuel Sousa Casal",
+      "postalCode": "4435-506",
+      "city": "Rio Tinto",
+      "countryCode": "PT",
+      "region": "Porto"
+    },
+    "profiles": [{
+      "network": "LinkedIn",
+      "username": "nunocpereira",
+      "url": "https://pt.linkedin.com/in/nunocpereira"
+    }
+	]
+  },
+  "work": [
+    {
+      "company": "ROFF",
+      "position": "SAP Consultant",
+      "website": "http://www.roffconsulting.com/",
+      "startDate": "2012-12-01",
+      "endDate": "Present",
+      "summary": "On ROFF i develop projects using both ABAP and JAVA technologies; Modules: HR, SD, MM, FI, SRM. I also help training junior resources to start working productively as fast as possible.",
+      "highlights": [
+        "HANA Developments: Calculation views, Attribute views, AMDPs, History tables, Execution Plans, Views With Parameters, CDS, code push down of SAP NW Gateway ABAP",
+		"ABAP and SQL Performance optimization",
+		"SAP Portal FPN (Federated Portal Network)",
+		"ESS/MSS on Web Dynpro JAVA and ABAP",
+		"Web Dynpro ABAP FPM Developments",
+		"Web Dynpro ABAP",
+		"Nakisa",
+		"Web Dynpro JAVA with NWDI",
+		"SAP Portal",
+		"NWDI tracks configuration",
+		"Adobe Interactive Forms Java and ABAP",
+		"jExcelAPI",
+		"Apache POI",
+		"Business Graphics",
+		"HRFORMS",
+		"Basics of SAP Business Workflow",
+		"ES Payroll DAQ Forms",
+		"DMEE Trees",
+		"HANA Proof Of Concept for HCM ABAP",
+
+		"SD/MM ",
+		"FI ",
+		"HR (the module that i work more often)",
+		"SRM with MDM",
+		"Httpwatch and Fiddler",
+		"Gather requirements with the customer and adjusting solutions to customer needs",
+		"Working with SAP Netweaver 7.4 based solutions"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Instituto Superior de Engenharia do Porto",
+      "area": "Information Technology",
+      "studyType": "Licentiate",
+      "startDate": "2001-09-01",
+      "endDate": "2006-09-01",
+      "gpa": "Final classification:15",
+      "courses": [
+        "JAVA",
+        ".NET",
+		"SAP",
+		"C"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "name": "It-inspired Blog",
+      "publisher": "Nuno Pereira",
+      "website": "http://it-inspired.blogspot.pt/",
+      "summary": "A blog with coding inspiration"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "SAP",
+      "level": "Master",
+      "keywords": [
+        "ABAP",
+        "J2EE",
+        "WDA",
+        "WDJ",
+        "HANA",
+        "SAPUI5"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Code",
+      "keywords": [
+        "AngularJS 2",
+        "SAPUI5",
+		"nodejs"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jose Luis Martins",
+      "reference": "In the period we worked together, I realized how easily Nuno interacts both with colleagues and clients, motivating and conciliating , even in stressful situations. Combining with his ability to solving problems, I see all the skills for a complete Team Leader."
+    },
+	{
+      "name": "Pedro Vieira",
+      "reference": "Working with Nuno I found him as a person with great background and deep experience of modern solutions. Nuno is a creative person. Brilliant, careful and loyal colleague. His expertise and loyalty makes Nuno to view solutions instead of problems."
+    },
+	{
+      "name": "Carlos Manuel Saragoça de Castro",
+      "reference": "I had the pleasure of working with Nuno on a few projects and consider him an excellent team worker. With a high planning capacity, leadership and always one step ahead of the problems. He is one of the best professionals I met. I fully recommend him, for its adaptability and fast learning, as well as the personal aspect."
+    },
+	{
+      "name": "Dan Peddle",
+      "reference": "Anyone who has done teaching or training will say that it is where you realise just how deep a knowledge is required to be able to do so effectively. Nuno easily impressed with his thorough understanding, and topped it off with a friendly and easy-going approach - positively dealing with the varying ability levels in the training environment."
+    },
+	{
+      "name": "Nuno Gonçalves",
+      "reference": "Nuno did some training in J2EE at Blip, and showed a lot of expertise in the area, learned a lot from him."
+    },
+	{
+      "name": "Isabel Moreira",
+      "reference": "Nuno is an agile, responsive and business oriented professional. I worked directly with him and he is very patient, humble and has a remarkable team work capacity. Even when involved in very tight schedule projects that become demanding and difficult, he managed to finish in time and without compromising the quality of his work. His interest in user experience surprised me and revealed to be consistent. He was able to assess priorities and invested in key features that added real value to the solution (until today). I enjoyed working with him and I have confidence in both his intellectual and social abilities."
+    }
+	,
+	{
+      "name": "Tiago Lima",
+      "reference": "When I first came to I2S it was Nuno that mentor me. He is extremely gifted and able to understand any technology in a few tries. He has a rare ability to cross information within a company, he can explain complex systems to both technical and non-technical people. He is an easy-going person and I am happy to say that I left a good friend after 2 years, I can only wish for him the best."
+    },
+	{
+      "name": "Rui Rodrigues",
+      "reference": "O Nuno Pereira é a pessoa que mais me ensinou em tempo de estágio,por isso, merece ser reconhecido. É uma pessoa com muita experiência e com grandes conhecimentos a nível de IT, mais concretamente no desenvolvimento de aplicações web, gestão de projectos e equipas. Um dos pontos fortes é a força de vontade que tem em aprender tecnologias novas, para se manter actualizado e estar preparado para qualquer desafio que lhe seja proposto."
+    },
+	{
+      "name": "Sérgio Azevedo",
+      "reference": "Nuno is an innate Team Leader / Project Manager, being methodological and precise. He is not afraid of taking the quick and dirty solution to solve problems when needed, but still thinks ahead, keeping in mind 'the big picture'. Nuno is always looking for new knowledge and tecnologies so he can easily overcome any difficulty in his path. He is someone you can rely on for any given task."
+    },
+	{
+      "name": "António Vaz",
+      "reference": "Nuno is probably one of the best experts I have ever meet in my life and one of the smartest colleagues I have ever worked with. His big proficiency and education makes him view solutions instead of problems. He denotes an in-depth understanding of modern IT technologies."
+    },
+	{
+      "name": "Vitor Silva",
+      "reference": "Nuno Pereira é tecnicamente das pessoas mais qualificadas com que ja trabalhei. Com vastos conhecimentos em tecnologias web evoluiu sempre rapidamente o que o faz estar um passo a frente do resto. O seu ponto mais forte no entanto do meu ponto de vista é na gestão de equipa e de projecto, integração e acompanhamento de novos recursos, qualidades inerentes ao seu perfil como pessoa, sempre humilde e disposto a ajudar e a aprender mesmo com pessoas mais juniores. Vence pela sua personalidade e capacidade."
+    }
+  ]
+}
