@@ -2,11 +2,24 @@
   "name": "myapp",
   "description": "a really cool app",
   "version": "1.0.0",
-  "engines": {
-    "node": "10.3.0"
+  "dependencies": {
+    "@sap/approuter": "latest",
+    "express": "^4.17.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
   },
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-replace": "0.5.4",
+    "jasmine-reporters": "2.1.1",
+    "gulp-jasmine": "2.4.1",
+    "gulp-istanbul": "1.1.1"
+  },
+  "files": [],
+  "main": "index.js",
   "scripts": {
-	  "start": "(node ./ui/node_modules/approuter/approuter.js) && (node ./js/server.js)",
-	  "heroku-postbuild": "(cd js && npm install && npm run build) && (cd ui && npm install && npm run build)"
+    "start": "node index.js",
+    "test": "node ./node_modules/gulp/bin/gulp test",
+    "test-coverage": "node ./node_modules/gulp/bin/gulp test-coverage"
   }
 }
