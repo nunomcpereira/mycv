@@ -6,6 +6,6 @@
     "node": "10.3.0"
   },
   "scripts": {
-		"start": "(cd js && npm run start) & (cd ui && npm run start)"
+		"start": "npm install & (cd js && npm run start) & (cd ui && npm run start)"
   }
 }
