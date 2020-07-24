@@ -7,5 +7,5 @@
   },
   "scripts": {
 		"start": "(cd js && npm run start) & (cd ui && npm run start)"
-	}
+  }
 }
