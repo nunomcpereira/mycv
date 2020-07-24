@@ -6,7 +6,7 @@
     "node": "10.3.0"
   },
   "scripts": {
-	  "start": "(node node_modules/approuter/approuter.js) && (node ./js/server.js)",
+	  "start": "(node ./ui/node_modules/approuter/approuter.js) && (node ./js/server.js)",
 	  "heroku-postbuild": "(cd js && npm install && npm run build) && (cd ui && npm install && npm run build)"
   }
 }
