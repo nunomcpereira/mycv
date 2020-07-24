@@ -11,7 +11,7 @@ app.use(function(req, res, next) {
   next();
 });
 app.route("/").get(function(req, res) {
-	var text = require('fs').readFileSync("/js/resume.json","utf8");
+	var text = require('fs').readFileSync("resume.json","utf8");
 	res.write(text);
 	res.end();
 });
