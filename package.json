@@ -3,7 +3,8 @@
   "description": "a really cool app",
   "version": "1.0.0",
   "engines": {
-    "node": "12.x"
+    "node": "12.15.0",
+    "npm": "6.13.7"
   },
   "dependencies": {
     "@sap/approuter": "latest",
