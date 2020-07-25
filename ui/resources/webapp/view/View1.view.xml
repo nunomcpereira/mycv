@@ -71,7 +71,7 @@
 										<m:cells>
 											<m:Text text="{company}"/>
 											<m:Text text="{position}"/>
-											<m:Text text="{begDate}"/>
+											<m:Text text="{startDate}"/>
 											<m:Text text="{endDate}"/>
 										</m:cells>
 									</m:ColumnListItem>
