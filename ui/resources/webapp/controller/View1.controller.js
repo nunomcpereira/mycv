@@ -9,6 +9,10 @@ sap.ui.define([
 			oModel.loadData("/resume", "", false);
 			//sap.ui.getCore().setModel(oModel);
 			this.getView().setModel(oModel);
+		},
+		openUrl: function(url)
+		{
+			sap.m.URLHelper.redirect(url, true);
 		}
 	});
 });
