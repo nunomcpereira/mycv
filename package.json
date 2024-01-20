@@ -9,11 +9,11 @@
     "request-promise": "^4.2.5"
   },
   "devDependencies": {
-    "gulp": "3.9.1",
+    "gulp": "4.0.2",
     "gulp-replace": "0.5.4",
     "jasmine-reporters": "2.1.1",
     "gulp-jasmine": "2.4.1",
-    "gulp-istanbul": "1.1.1"
+    "gulp-istanbul": "1.1.3"
   },
   "files": [],
   "main": "index.js",
